@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'iconitos';
+    src:  url('../fonts/icomoon.eot?uwy0r4');
+    src:  url('../fonts/icomoon.eot?uwy0r4#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?uwy0r4') format('truetype'),
+      url('../fonts/icomoon.woff?uwy0r4') format('woff'),
+      url('../fonts/icomoon.svg?uwy0r4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.encabezado .logo {
+    width: 60px;
+}
+
+.encabezado .access {
+    white-space: nowrap;
+    margin-bottom: 3vh;
+    font-size: 16px;
+}
+
+.encabezado .lista {
+    display: inline-block;
+    margin-right: 20px;
+    color: #00696e;
+}
+
+.button-sigin {
+    background-color: #00696e;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.central-content {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.central-content .main-image {
+    opacity: 0.9;
+    border-radius: 20px;
+    width: 150vh;
+    margin-bottom: 100px;
+    max-width: 100%
+}
+
+.central-content .titulo-nombre {
+    margin-top: -130px;
+    font-size: 30px;
+    color:#049393;
+}
+
+.central-content .descipcion {
+    margin-top: -20px;
+    color: #3a6161;
+}
+
+.main-btns button {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 70px;
+}
+
+.main-btns .whatch::before {
+    font-family: "iconitos";
+    content: "\ea15";
+    color:  #3a6161;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.main-btns .whatch {
+    color:  #3a6161;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.info-one .cuadritos {
+    display: inline-block;
+    color: #3a6161;
+    width: 150px;
+    padding: 0 20px;
+    margin: 10px;
+    text-align: start;
+}
+
+.info-one .cuadritos .titulo-cuadrito {
+    margin-top: -5px;
+    font-size: 16px;
+}
+
+.info-one .cuadritos .text-cuadrito {
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.cuadritos .icono1::before {
+    font-size: 20px;
+    font-family: "iconitos";
+    content: "\e99b";
+}
+
+.cuadritos .icono2::before {
+    font-size: 20px;
+    font-family: "iconitos";
+    content: "\e99b";
+}
+.cuadritos .icono3::before {
+    font-size: 20px;
+    font-family: "iconitos";
+    content: "\e99b";
+}
+
+.cuadritos .icono4::before {
+    font-size: 20px;
+    font-family: "iconitos";
+    content: "\e99b";
+}
+
+.info-two .cuadritos-dos {
+    display: inline-block;
+    color: #3a6161;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 5px 20px;
+    width: 90px;
+    height: 70px;
+    box-shadow: 2px 2px 5px rgba(80, 104, 158, 0.5);
+}
+
+.cuadritos-dos:hover {
+    background-color: #3a6161;
+    color: azure;
+}
+
+
+.cuadritos-dos .icono5::before {
+    font-family: "iconitos";
+    content: "\e99b";
+    font-size: 20px;
+}
+
+.cuadritos-dos .icono6::before {
+    font-family: "iconitos";
+    content: "\e99b";
+    font-size: 20px;
+}
+
+.cuadritos-dos .icono7::before {
+    font-family: "iconitos";
+    content: "\e99b";
+    font-size: 20px;
+}
+
+.cuadritos-dos .icono8::before {
+    font-family: "iconitos";
+    content: "\e99b";
+    font-size: 20px;
+}
+
+.cuadritos-dos .icono9::before {
+    font-family: "iconitos";
+    text-align: center;
+    content: "\e99b";
+    font-size: 20px;
+}
+
+.cuadritos-dos .icono10::before {
+    font-family: "iconitos";
+    content: "\e99b";
+    font-size: 20px;
+}
+
+.cuadritos-dos-text {
+    margin-top: -10px;
+}
+
+.info-team {
+    margin-bottom: 40px;
+}
+
+.presentacion-team {
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15px;
+    color: #00696e;
+}
+
+.presentacion-team p {
+    font-size: 14px;
+}
+
+.info-team-person {
+    display: inline-block;
+    margin: 20px;
+}
+
+.info-team-person img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.info-team-person-desc {
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: rgb(225, 229, 236);
+    padding: 5px; 
+}
+
+.info-team-person-desc .nombre, .info-team-person-desc .profesion {
+    color: #3a6161;
+}
+
+
+.info-team-person-desc .nombre {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.info-team-person-desc .profesion {
+    margin-top: -12px;
+    font-size: 10px;
+}
+
+.cuadro-final-section {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    text-align: start;
+    width: 300px;
+    color: #3a6161;
+}
+
+.final-section .cuadro-final-section img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.final-section .cuadro-final-section p{
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.readmore {
+    color: #4576d1;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #00696e;
+    padding: 10px; 
+    display: flex;
+}
+
+.redessociales {
+    margin-left: auto;
+    margin-right: 26vh;
+    color: azure;
+}
+
+.redessociales p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.facebook::before {
+    font-family: "iconitos";
+    content: "\ea91";
+}
+
+.instagram::before {
+    font-family: "iconitos";
+    content: "\ea92";
+}
+
+.whatsapp::before {
+    font-family: "iconitos";
+    content: "\ea93";
+}
+
+.twitter::before {
+    font-family: "iconitos";
+    content: "\ea96";
+}
+
+.copyright {
+    color: azure;
+    margin-left: 25vh;
+}
